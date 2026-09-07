@@ -1,0 +1,12 @@
+# Local environment settings: do not commit real secrets.
+.env
+.env.*
+!.env.example
+
+# Local operating-system files.
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Optional tool output, not needed by this static app.
+node_modules/
